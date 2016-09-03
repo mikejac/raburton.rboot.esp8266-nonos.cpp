@@ -1,0 +1,7 @@
+mkdir -p build
+mkdir -p firmware
+CC rboot-stage2a.c
+LD build/rboot-stage2a.elf
+E2 build/rboot-hex2a.h
+make: ../esptool2/esptool2: No such file or directory
+make: *** [build/rboot-hex2a.h] Error 1
